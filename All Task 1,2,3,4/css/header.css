@@ -1,0 +1,12 @@
+/*CSS Header*/
+#header {
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 3em;
+    font-weight: bolder;
+    background: #004E90 ;
+    color: #fff;
+    /*background: linear-gradient(#ccc 0%, #ddd 50%, #eee 100%);*/
+}
+

@@ -1,0 +1,57 @@
+#Courses{
+    direction: ltr;
+    
+    text-align: center;
+    padding: 60px 0;
+    font-size: 1.4em;
+} 
+
+#Courses p{
+    direction: rtl;
+}
+
+#Courses p a{
+    background-color: bisque;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius:5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+#Courses #row{
+    display: inline-block;
+}
+
+#Courses #row .col {
+    width: 306px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+    box-shadow: 1px 1px 3px #000;
+    min-height: 400px;
+    
+}
+
+
+#Courses #row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#Courses #row .col img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#Courses #row .col h4{
+    text-align: left;
+}
+
+#Courses #row .col p{
+    text-align: justify;
+}

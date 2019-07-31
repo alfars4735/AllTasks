@@ -1,0 +1,45 @@
+#textFormat {
+  text-align: center;
+  padding: 90px 0;
+  font-size: 1.5em;
+  background-color: #212121;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+#textFormat p{
+  width: 300px;
+  margin: auto;
+  user-select: none;
+  border-bottom: 10px solid #27A699;
+  font-weight: bolder;
+  letter-spacing: 25px;
+  text-transform: uppercase;
+  animation: changeColor 20s infinite;
+  
+  /*Safari*/
+  -webkit-animation: changeColor 20s infinite;
+  
+}
+
+@keyframes changeColor{
+  0%{color: red}
+  20%{color: green}
+  40%{color: blue}
+  60%{color: cyan}
+  80%{color: magenta}
+  100%{color: yellow}
+}
+/*safari*/
+@-webkit-keyframes changeColor{
+  0%{color: red}
+  20%{color: green}
+  40%{color: blue}
+  60%{color: cyan}
+  80%{color: magenta}
+  100%{color: yellow}
+}
+
+#textFormat p:last-child{
+  border: none;
+}

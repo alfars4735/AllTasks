@@ -1,0 +1,7 @@
+/*CSS Wraper*/
+#wraper{
+    background-color: white;
+    width: 90%;
+    min-height: 1000px;
+    margin: 30px auto;  
+}

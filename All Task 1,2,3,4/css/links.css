@@ -1,0 +1,64 @@
+/*CSS Links*/
+#link-container {
+    width: 100%;
+    height: 40px;
+    background-color: #F6F7FA;
+    border-bottom: 3px solid #004E90;
+    position: sticky;
+    top:0;
+    
+}
+
+#link-container #box-right{
+    float: right;
+    width: 180px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+#link-container div#btnHome {
+    float: right;
+    width: 50px;
+    height: 40px;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 40px;
+    background-color: #004E90;
+    color: #fff;
+}
+
+#link-container p#lblTitle{
+    float: right;
+    padding-right: 10px;
+    font-size: 1.4em;
+    line-height: 40px;
+    color: #004E90;
+    font-weight: bold;
+}
+
+#link-container ul#menu {
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    
+}
+
+#link-container ul#menu li {
+    float: right;
+}
+
+#link-container ul#menu li a {
+    display: block;
+    color: #333;;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+#link-container ul#menu li a:hover{
+    background-color: #004E90;
+    color: #fff;
+}
+
+

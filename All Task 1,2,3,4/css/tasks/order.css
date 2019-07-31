@@ -1,0 +1,41 @@
+#order {
+    direction: ltr;
+    padding: 75px 0;
+    text-align: center;
+    background: linear-gradient(to right bottom,#50A176 0% ,#40b186 20%,#609166 40%,#30c196 60%,#609166 80%,#50A176 110%) fixed;
+    /*background-color: #50A176;*/
+    font-size: 1.6em;
+}
+
+section#order h2 {
+    text-shadow: 1px 1px 5px #fff;
+}
+
+section#order div#body{
+    background-color: #fff;
+    text-align: left;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+section#order div#body table label{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+section#order div#body table input, 
+section#order div#body table select {
+  margin-left: 10px;  
+}    
+
+section#order div#body table input[type='text'] {
+    border: 1px solid gray;
+    padding: 3px;
+    
+}
+
+section#order div#body table select {
+    width: 60px;
+}

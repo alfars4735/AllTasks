@@ -1,0 +1,33 @@
+#simplePage{
+	direction: ltr;
+	background-color: #eee;
+	padding: 100px 0;
+}
+
+
+
+#simplePage h1,#simplePage h2 {
+	text-align:center;
+}
+
+#simplePage h1{
+	margin: 0.87em 0;
+}
+
+#simplePage h2{
+	margin: 0.83em 0;
+}
+
+#simplePage h3{
+	margin: 1em 0;
+}
+
+#simplePage p{
+	margin: 1em 0;
+}
+
+#simplePage ol{
+	margin: 1em 0;
+	padding-left: 40px;
+}
+
